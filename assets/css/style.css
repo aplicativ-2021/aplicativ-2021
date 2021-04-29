@@ -13,9 +13,9 @@ body {
     text-align: center;
 }
 
-strong { 
-	font-weight: 500; 
-	font-family: 'Medori'; 
+strong {
+	font-weight: 500;
+	font-family: 'Medori';
 }
 
 a, a:hover, a:focus {
@@ -93,8 +93,8 @@ img { max-width: 100%; }
 	border-bottom: 1px dotted #ddd;
 }
 
-.section-container-image-bg, 
-.section-container-image-bg h2, 
+.section-container-image-bg,
+.section-container-image-bg h2,
 .section-container-image-bg h3 {
 	color: #fff;
 }
@@ -147,7 +147,7 @@ img { max-width: 100%; }
     color: #fff;
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
 }
-.btn-link-2:hover, .btn-link-2:focus, 
+.btn-link-2:hover, .btn-link-2:focus,
 .btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
 
 
@@ -182,7 +182,7 @@ ul.navbar-nav {
 .navbar-brand {
 	width: 72px;
 	height: 60px;
-	
+
 }
 
 .navbar-toggle {
@@ -467,3 +467,84 @@ footer {
 .footer-copyright {
 	margin-top: 25px;
 }
+
+
+
+.logo {
+  text-align: center;
+
+  margin: auto;
+	letter-spacing: 15px;
+
+   user-select: none;
+}
+
+.logo b{
+  font: 100 10vh "Medori";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #fee, 0 0 0.5em #fee, 0 0 0.1em #fee, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #fee;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #fee;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color:#fee;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+/* follow me @nodws */
+#btn-twtr{
+  clear:both;
+  color:#fee;
+  border:2px solid;
+  border-radius:3px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  font-family:sans-serif;
+  font-size:14px;
+  width:13em;
+  padding:5px 10px;
+  font-weight:600;
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  background:rgba(0,0,0,0.2);
+  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+  opacity:0.4
+}#btn-twtr:hover{color:#fff;opacity:1}
