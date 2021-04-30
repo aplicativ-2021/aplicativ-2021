@@ -315,26 +315,62 @@
 	        </div>
         </div>
 
-        <!-- Testimonials -->
+        <!-- contact -->
         <div class="testimonials-container section-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 testimonials section-description wow fadeIn">
-	                    <h2><strong>Contact</strong> us</h2>
+	                    <h2><strong>Send Us A</strong> Message</h2>
 
                       <div class="divider-1 wow fadeInUp"><span></span></div>
-                     <p>
-                       If you need any further information, please feel free to contact us
-                       <span class="colored-text"> info@aplicativ.com</span>
 
-                     </p>
 	                </div>
 
 	            </div>
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1 " href="mailto:info@aplicativ.com">Send email</a>
+
+
+	            	<div class="col-sm-6  wow fadeInUp">
+                        <form  action="https://formspree.io/f/mqkweqwz" method="POST" name="contact-form" id="contact" class="form">
+
+                            <div class="row text-left">
+                              <div class="form-group col-sm-12">
+                                <label>Name</label>
+                                <input type="name" class="form-control" placeholder="Full name"></input>
+                              </div>
+                              <div class="form-group col-sm-12">
+                                <label>Email</label>
+                                <input type="email" name="_replyto" class="form-control" placeholder="example@email.com"></input>
+                              </div>
+                              <div class="form-group col-sm-12">
+                                <label>Message</label>
+                                <textarea name="message" class="form-control" class="form-control" placeholder="Write us a message"></textarea>
+                              </div>
+                              <div class="form-group col-sm-12">
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                              </div>
+                            </div>
+
+
+
+                          </form>
 	            	</div>
+
+
+                	       <div class="row">
+                            <div class="contact-details  col-sm-6  wow fadeInUp">
+                              <div class="col-sm-12 text-left ">
+                                  <p>
+                                    If you need any further information, please feel free to contact us
+
+                                  </p>
+                                  <h5><i class="fa fa-map-marker-alt"></i> LOCATION</h5>
+                                  <p class="colored-text">Kraków</p>
+
+                                  <h5><i class="fas fa-envelope"></i> General Support</h5>
+                                  <p class="colored-text">info@aplicativ.com</p>
+                                  </div>
+
+                                </div>
 	            </div>
 
 	        </div>
@@ -385,6 +421,7 @@
 
 
         <!-- Javascript -->
+         <script src="https://kit.fontawesome.com/9813b48677.js" crossorigin="anonymous"></script>
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
