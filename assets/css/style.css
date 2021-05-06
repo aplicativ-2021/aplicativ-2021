@@ -551,10 +551,8 @@ footer {
 
 .contact-details{
 		margin-top: 30px;
-  
 
 
-}
-.form{
 
 }
+textarea.form-control { height: 150px; }
